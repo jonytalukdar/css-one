@@ -1,0 +1,11 @@
+.transition {
+  width: 200px;
+  height: 200px;
+  border: 2px solid cyan;
+  background-color: indigo;
+  transition: background-color 1s ease-in 0.5s;
+}
+
+.transition:hover {
+  background-color: cyan;
+}
