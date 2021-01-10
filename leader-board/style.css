@@ -1,0 +1,144 @@
+body {
+  background-color: #ddd;
+}
+
+header {
+  background-color: blue;
+  height: 60px;
+  margin: 20px 0;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li img {
+  width: 10%;
+  margin-top: 3px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 0 10px;
+  font-weight: 600;
+}
+nav {
+  width: 1100px;
+  margin: auto;
+}
+main {
+  width: 1100px;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: #0059ffdc;
+}
+
+.top-player {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.single-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-player img {
+  width: 30%;
+  margin-right: 10px;
+}
+
+hr {
+  width: 90%;
+  margin-top: 40px;
+  color: #a9a9a967;
+}
+
+.blog-title {
+  color: #0059ffdc;
+  font-size: 25px;
+}
+
+.top-blog img {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.top-blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.single-blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: orangered;
+}
+#latest-course {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#latest-course h1 {
+  font-size: 25px;
+}
+.latest-course {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.single-course img {
+  width: 90%;
+  height: 50%;
+}
+.single-course .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.five-star {
+  color: chocolate;
+}
+.review {
+  color: black;
+  font-size: 20px;
+}
+
+.hours {
+  border: 3px solid #ffc0c0;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+.hours i {
+  color: brown;
+}
+
+@media (max-width: 992px) {
+  .top-player {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
