@@ -1,0 +1,10 @@
+.box {
+  background-color: cyan;
+  border: 3px solid greenyellow;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
